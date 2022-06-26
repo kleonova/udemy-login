@@ -1,0 +1,58 @@
+:root {
+  --very-peri: #6667AB;
+  --gray: #696969;
+  --white: #ffffff;
+}
+
+.login-page-wrapp {
+  height: 100vh;
+}
+
+.login-form-wrap {
+  width: 50%;
+}
+
+.login-form-wrap .form-card {
+  max-width: 500px;
+  width: 100%;
+  margin-right: 30px;
+}
+
+.login-form-wrap .form-card .card-title {
+  color: var(--gray);
+}
+
+.login-greeting-screen {
+  background: var(--very-peri);
+  width: 50%;
+  padding: 20px;
+}
+
+.login-greeting-screen .login-greeting-screen-text {
+  max-width: 500px;
+}
+
+.login-greeting-screen .login-greeting-screen-text {
+  color: var(--white);
+}
+
+.login-greeting-screen .login-greeting-screen-title {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.login-greeting-screen .login-greeting-screen-description {
+  line-height: 1.4;
+}
+
+.my-btn-primary {
+  background-color: var(--very-peri);
+  border-color: var(--very-peri);
+  color: var(--white);
+  padding: 0.5rem 2rem;
+}
+
+.my-btn-primary:hover {
+  color: var(--white);
+  transform: scale(1.01);
+}
